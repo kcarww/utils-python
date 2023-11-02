@@ -1,0 +1,75 @@
+---------------------------------------------------------------
+1. Utilizando for, imprima uma sequencia de 0 a 100.
+for i in range(101):
+    print(i)
+---------------------------------------------------------------
+2. Utilizando for imprima "hello world" 10 vezes na tela
+for i in range(10):
+    print('Hello world')
+--------------------------------------------------------------
+3. Utilizando for imprima uma sequencia de 0 até um número digitado pelo usuário
+numero = int(input('Digite um número: '))
+for i in range(numero + 1):
+    print(i)
+-------------------------------------------------------------
+4. Utilizando for imprima todos os pares de 0 a 100
+for i in range(101):
+    if i % 2 == 0:
+        print(i)
+------------------------------------------------------------
+5. Utiliznado for imprima todo os pares de 0 até o número digitado pelo usuário
+numero = int(input('Digite um número: '))
+for i in range(numero + 1):
+    if i % 2 == 0:
+        print(i)
+
+-------------------------------------------------------------
+6. Utilizando for leia 10 número se o número for par imprima "este número é par" se não imprima "este número é ímpar"
+for i in range(10):
+    numero = int(input('Digite um número: '))
+    if numero % 2 == 0:
+        print('Este número é par!')
+    else:
+        print('Este número é ímpar!')
+---------------------------------------------------------------
+7. Utilizando for leia 10 números e imprima a quantidade de pares e ímpares digitados
+pares = 0
+impares = 0
+for i in range(10):
+    numero = int(input('Digite um número: '))
+    if numero % 2 == 0:
+        pares += 1
+    else:
+        impares += 1
+print(f'Quantidade de pares: {pares}')
+print(f'Quantidade de ímpares {impares}')
+------------------------------------------------------------------
+8. Utilizando for leia o preço de 10 produtos e no final imprima a soma total desses preços
+soma = 0
+for i in range(10):
+    preco = float(input('Digite o preço do produto: '))
+    soma += preco
+print(f'Soma total: {soma}')
+-------------------------------------------------------------------
+9. Utilizando for leia 10 números e ao final imprima o maior número digitado
+maior = 0
+for i in range(10):
+    numero = int(input('Digite um número: '))
+    if numero > maior:
+        maior = numero
+print(f'Maior número digitado: {maior}')
+--------------------------------------------------------------------
+10. Leia 10 velocidades, se a velocidade for acima de 50 imprima "acima da velocidade" senão imprima "Dentro da velocidade permitida"
+11. Leia 10 velocidades, ao final imprima a quantidade de veiculos que ultrapassaram o limite de 50km e a quantidade que passou na velocidade permitida
+12. Imprima a seguinte sequencia
+I = 0 J = 0
+I = 1 J = 3
+I = 2 J = 6
+I = 3 J = 9
+...
+I = 9 J = ???
+13. Leia a idade de 10 pessoas e ao final do programa imprima a maior e a menor idade
+14. Leia um número e imprima a tabuada de multiplicação deste número
+15. Leia 10 números e ao final imprima a quantidade de pares digitados, a quantidade de multiplos de 3 e 5 digitados, e a quantidade de números entre 10 e 30
+16. Leia uma palavra e informe quantas vogais existem na palavras
+obs: use for i in palavra:
