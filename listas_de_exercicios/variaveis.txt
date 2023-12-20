@@ -1,0 +1,66 @@
+1. Crie uma variável e nela armazene o valor da lado de um quadrado em seguida crie uma variável para a área desse quadrado. A área é calculada da seguinte forma: area = lado x lado, exiba a área usando alert() ou document.write()
+
+let lado = 5
+let area = lado * lado // lado ** 2
+alert("Área = " + area)
+
+2. Crie uma variável para a base de um triangulo e outra para a altura, armazene os valores que deseja. Em seguida crie uma terceira variável para sua area, utilize a formula: 
+area = base x altura / 2, exiba a área usando alert() ou document.write()
+
+let base = 7
+let altura = 15
+let area = base * altura / 2
+alert("Área do triangulo = " + area)
+
+3. Crie 3 variáveis, armazene 3 notas nelas, em seguida calcule a média e exiba a média dessas notas utilizando o comando alert()
+
+let nota1 = 9.8
+let nota2 = 7
+let nota3 = 6.8
+let media = (nota1 + nota2 + nota3) / 3
+alert("Média = " + media)
+
+4. Crie uma variável para o raio de um círculo, em seguida calcule a área deste círculo utilizando a formula: area = pi x raio², exiba a área utilizando alert()
+
+let raio = 7
+let area = 3.14 * raio ** 2
+alert("Área do círculo = " + area)
+
+5. Crie uma variável para o seu peso e outra para a sua altura, em seguida calcule o seu imc e exiba o resultado. imc = peso / altura²
+
+let peso = 85
+let altura = 1.81
+let imc = peso / altura ** 2
+alert("IMC = " + imc)
+
+6. Crie uma variavel para a velocidade media do veiculo em uma viagem, em seguida cria outra variavel para o tempo em horas dessa viagem. Em seguida calcule o consumo de combustivel desse veiculo, considerando que o mesmo faz 12km/l
+
+let velocidadeMedia = 100
+let tempoViagem = 3
+let distancia = velocidadeMedia * tempoViagem
+let consumoViagem = distancia / 12
+alert("Gasto de combustível na viagem: " + consumoViagem + " litros")
+
+7. Crie uma variável com um valor em reais e em seguida exiba este valor em dolar. Considerando que o dolar atualmente valor 4.87
+
+let real = 1000
+let dolar = real / 4.87
+// toFixed(valor) -> reduz as casas decimais
+alert("Valor em dolar: " + dolar.toFixed(2))
+
+8. Crie uma variável e armazene o valor de uma temperatura em celsius e a converta para fahrenheit. usando a formula f = c x 1.8 + 32
+
+c = 32
+f = c * 1.8 + 32
+alert("Temperatura: " + f)
+
+9. Crie uma variável para a altura em metros e exiba seu resultado convertida em centimetros
+
+10. Crie uma variável para uma distancia em quilometros e a converta para milha
+1 milhas = 1.6km
+
+11. Crie uma variável para base e outra para altura de uma parede, em seguida calcule sua área (base x altura) e informe quantos litros de tinta são necessários para pinta-la, levando em contac que 1 litro de tinta pinta 2metros² de uma parede
+
+12. Crie uma variável para sua idade e informe quantos dias você já viveu, considerando que o ano tem 365 dias
+
+13. Crie uma variável com um valor em horas e em seguida a converta para minutos e para segundos
