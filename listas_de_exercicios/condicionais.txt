@@ -1,0 +1,9 @@
+1. Peça ao  usuário para digitar a velocidade que ele passou em um radar. Caso a velocidade seja acima de 50, exiba a mensagem "Você ultrapassou o limite de velocidade", caso contrário exiba a mensagem "Você está dentro do limite de velocidade"
+2. Solicite um número ao usuário e informe se este número é positivo ou negativo.
+3. Solicite ao usuário um número e informe se este número esta entre 5 e 15.
+4. Solicite ao usuário dois números e imprima o maior.
+5. Solicite ao usuário uma senha e se ela for igual a "infinity" Exiba a mensagem "acesso concedido", senão exiba "acesso negado"
+6. Solicite ao usuário um número e informe se este número é par ou ímpar
+7. Leia 3 notas, calcule a média e se a média for maior ou igual a 6 imprima "Você está aprovado" senão imprima "Você está de recuperação"
+8. Peça para o usuário digitar uma letra e informe se esta letra é uma vogal ou uma consoante
+9. Leia a quantidade de vezes que um usuário cortou o cabelo em um salário, caso este valor seja acima de 10 imprima "Você tem direito a um corte gratis", senão imprima "Você ainda não tem direito ao corte"
