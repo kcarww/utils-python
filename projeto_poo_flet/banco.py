@@ -21,10 +21,15 @@ class Livraria:
         return self.livros
     
     def buscar_livro_por_titulo(self, titulo: str):
+        livros = []
         for livro in self.livros:
-            if livro.titulo == titulo:
-                return livro
-        return None
+            if titulo in livro.titulo:
+                livros.append(livro)
+        
+        if len(livros) > 0:
+            return livros
+        
+        return self.livros
     
     def remover_livro(self, id: int):
         for livro in self.livros:

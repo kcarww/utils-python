@@ -57,13 +57,14 @@ def main(page: ft.Page):
         )
         page.dialog = dialog
         dialog.open = True
-        page.update()   
+        page.update()
 
     def limpar_campos():
         txt_id.value = ''
         txt_titulo.value = ''
         txt_autor.value = ''
         txt_ano_publicacao.value = ''
+        txt_buscar.value = ''
         page.update()
 
     def selecionar_linha(e, book):
@@ -76,6 +77,8 @@ def main(page: ft.Page):
 
     def atualizar_tabela():
         livros = livraria.listar_livros()
+        if txt_buscar.value != '':
+            livros = livraria.buscar_livro_por_titulo(txt_buscar.value)
         tabela.rows = []
         for book in livros:
             row = ft.DataRow(
@@ -113,7 +116,7 @@ def main(page: ft.Page):
 
     ])
 
-    txt_buscar = ft.TextField(label='Buscar livro (titulo)')
+    txt_buscar = ft.TextField(label='Buscar livro (titulo)', on_change=lambda e: atualizar_tabela())
 
     page.add(txt_id, txt_titulo,
              txt_autor,
